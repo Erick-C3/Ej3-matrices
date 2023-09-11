@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(190, 221, 190);
+}
+
+.casilla{
+    background-color: whitesmoke;
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
+}
+
+#tablero{
+    display: grid;
+    place-content: center;
+    margin-top: 20vh;
+}
+
+#config-matriz{
+    display: grid;
+    margin-top: 10vh;
+    place-content: center;
+}
+
+span{
+    font-size: xx-large;
+}
+
+.jugador{
+    background-color: rgb(122, 208, 135);
+}
